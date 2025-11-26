@@ -22,6 +22,12 @@ Set Up
 3. Configure the theme in your **.zshrc** file:
 
     ```
+    POWERLINE_HIDE_USER_NAME="true"
+    POWERLINE_HIDE_HOST_NAME="true"
+    POWERLINE_PATH="short"
+    POWERLINE_DETECT_SSH="true"
+    # POWERLINE_RIGHT_A="mixed"
+    POWERLINE_RIGHT_A="exit-status-on-fail"
     ZSH_THEME="powerline"
     ```
 
